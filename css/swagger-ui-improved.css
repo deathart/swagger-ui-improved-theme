@@ -1,7 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  background: light-dark(#fafafa, #121619);
+}
+
 .swagger-ui {
-  color: #3b4151;
+  color: light-dark(#3b4151, #f5f6f7);
   font-family: "Poppins", sans-serif;
 }
 
